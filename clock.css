@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  body{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Press Start 2P", system-ui;
+    background-image: url(/clock\ bg.avif);
+  background-size: cover;
+    background-position: center;
+}
+    .clock{
+        align-self: center;
+        height: 50px;
+        width: 350px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .day{
+     height: 50px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: seagreen;
+        font-size: 50px;
+    }
+    .hours{
+        font-size: 50px;
+        color: white;
+    }
+    .minutes{
+        font-size: 50px;
+        color: white;
+    }
+    .seconds{
+        font-size: 50px;
+        color: white;
+    }
+    .milliseconds{
+        font-size: 50px;
+        color: white;
+    }
+    .ampm{
+        font-size: 50px;
+        color: seagreen;
+        padding-left: 30px;
+    }
+.separator{
+    font-size: 50px;
+    color: white;
+    padding: 5px,0px,5px,0px;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
